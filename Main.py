@@ -1,11 +1,9 @@
 import sys
-from cProfile import label
 import random
 
-from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QPalette, QColor
-from PyQt6.QtWidgets import (QMainWindow, QApplication, QVBoxLayout, QPushButton, QWidget, QLabel, QLineEdit,
-                             QGridLayout, QStackedLayout)
+from PyQt6.QtWidgets import (QMainWindow, QApplication, QVBoxLayout, QPushButton, QWidget,
+                              QStackedLayout)
 
 from CajaColor import CajaColor
 
